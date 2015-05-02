@@ -3,7 +3,7 @@ from django.conf import settings
 redis_host = None
 redis_port = None
 redis_db = None
-
+redis_password = None
 
 def get_redis_host():
     global redis_host
